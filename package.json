@@ -1,0 +1,19 @@
+{
+  "name": "mint-loot-system",
+  "version": "1.0.0",
+  "description": "Mint Theme Reward Claiming System with Telegram Bot Admin",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "telegraf": "^4.12.2",
+    "body-parser": "^1.20.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Devansh",
+  "license": "ISC"
+}
