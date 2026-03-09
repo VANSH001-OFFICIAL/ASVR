@@ -32,14 +32,15 @@ app.get('/', (req, res) => {
         </head>
         <body>
             <div class="card">
-                <h2>🍃 Mint Claim</h2>
+                <h2>ASVR WALLET</h2>
                 <form action="/submit" method="POST">
                     <input type="text" name="code" placeholder="Enter Claim Code" required>
                     <select name="method">
                         <option value="UPI">UPI ID</option>
                         <option value="Ultra Wallet">Ultra Wallet</option>
+                        <option value="VSV Wallet">VSV Wallet</option>
                     </select>
-                    <input type="text" name="address" placeholder="Enter Number / VPA" required>
+                    <input type="text" name="address" placeholder="Enter Number / UPI ID" required>
                     <button type="submit">Claim Now</button>
                 </form>
                 <div class="footer">Powered by Mint Rewards System</div>
